@@ -8,7 +8,7 @@ MAINTAINER  pitrho
 ############################################################
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq \
-  && apt-get install -y \
+  && apt-get -qq -y install \
     build-essential \
     libfuse-dev \
     fuse-utils \
