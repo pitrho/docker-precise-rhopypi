@@ -1,4 +1,4 @@
-# Docker Precise nginx
+# Docker Precise pypiserver
 This repository contains a `Dockerfile` for building a python package server
 using [pypiserver](https://pypi.python.org/pypi/pypiserver). In addition, the
 image allows for mounting an AWS S3 bucket as the repository location for the
